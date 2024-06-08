@@ -1,2 +1,1 @@
-# newupscbot
-SC BOT DDOS DYCODERS ANTI CODING TINGGAL INPUT²
+# scbot
