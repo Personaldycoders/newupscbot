@@ -22,9 +22,7 @@
     "tls": "^0.0.1",
     "url": "^0.11.3",
     "user-agents": "^1.1.119",
-        "puppeteer": "^12.13.0",
-    "puppeteer-extra": "^2.1.2",
-    "puppeteer-extra-plugin-stealth": "^1.10.0"
-
+    "puppeteer-extra": "^3.1.18",
+    "puppeteer-extra-plugin-stealth": "^2.9.0"
   }
 }
